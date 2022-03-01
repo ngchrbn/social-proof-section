@@ -54,7 +54,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ngchrbn)
-- Twitter - [@yourusername](https://www.twitter.com/ngchrbn)
+- Frontend Mentor - [@ngchrbn](https://www.frontendmentor.io/profile/ngchrbn)
+- Twitter - [@ngchrbn](https://www.twitter.com/ngchrbn)
 
 ## Acknowledgments

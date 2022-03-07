@@ -85,7 +85,7 @@ h1 {
     margin-bottom: 2em;
 }
 
-#review {
+.review {
     line-height: 1.7;
     font-size: .85em;
     margin-top: 1.5em;
@@ -102,6 +102,84 @@ h1 {
     color: hsl(333, 80%, 67%);
 }
 
-/* @media screen (min-wdith: 747px) {
-    
-} */
+/* media styles */
+
+@media screen and (min-width: 747px) {
+    .container {
+        padding-right: 2.5em;
+        padding-left: 2.5em;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .container {
+        padding: 2em;
+        margin: 2em;
+    }
+    .main {
+        margin: 3.9em 0em 0em;
+        display: grid;
+        grid-template-columns: 3fr 4fr;
+    }
+    .desc {
+        align-self: center;
+        text-align: left;
+        padding-right: 3.5em;
+    }
+    h1 {
+        font-size: 2.7em;
+        text-align: left;
+        padding: 0;
+    }
+    .txt {
+        margin-top: 1.25em;
+    }
+    .rating {
+        margin-bottom: 1.25em;
+    }
+    .rating p{
+        display: inline-block;
+    }
+    .ratings {
+        margin-top: 1em;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) 3fr repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .reviews {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 1;
+    }
+    .guru {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row: 2;
+    }
+    .best_tech {
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row: 3;
+    }
+    .cards {
+        margin-top: 2em;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1em) 250px repeat(2, 1em) 2em;
+        column-gap: 30px;
+    }
+    .colton {
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    .irene {
+        grid-row-start: 2;
+        grid-row-end: 5;
+    }
+    .anne {
+        grid-row-start: 3;
+        grid-row-end: 6;
+    }
+}
